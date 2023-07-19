@@ -42,7 +42,7 @@ const toggleClass = (node,className)=>{
 /* css ---------------------------------------------------------------------- */
 
 
-function setCss(node,prop,value){
+function setCss(node, prop, value){
   if(typeof node === 'string') node = getNode(node);
 
   if(!(prop in document.body.style)){
